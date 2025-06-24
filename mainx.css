@@ -1,0 +1,133 @@
+/* General styles */
+body {
+  font-family: "Audiowide", sans-serif;
+  background-color: #333;
+  color: whitesmoke;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 15px rgba(102, 192, 216, 0.1);
+  border-radius: 10px;
+}
+
+/* Heading styles */
+h1, h2, h3 {
+  font-family: "sofia", sans-serif;
+ /*  color: wheat; */
+  text-shadow: 3px 3px 3px #67b5e6;
+}
+
+/* Paragraphs */
+p {
+  line-height: 1.6;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+/* Links */
+a {
+  color: rgb(46, 185, 240);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #8f174d;
+  text-decoration: underline;
+}
+
+/* Buttons */
+button {
+  padding: 10px 20px;
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(93, 174, 231, 0.2);
+  transition: background-color 0.3s ease, transform 0.2s;
+}
+
+button:hover {
+  background-color: #72105d;
+  transform: scale(1.05);
+}
+
+/* Tables */
+table, caption {
+  width: 100%;
+  border: 1px solid #333;
+  border-collapse: collapse;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(58, 55, 55, 0.1);
+}
+
+th, td {
+  padding: 12px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+th {
+  background-color: #043b72;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #118463;
+}
+
+/* Forms */
+input[type="text"], input[type="email"], textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-shadow: inset 1px 1px 3px rgba(194, 85, 85, 0.1);
+}
+
+input:focus, textarea:focus {
+  border-color: #2980b9;
+  outline: none;
+}
+
+/* Lists */
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+ol {
+  padding-left: 20px;
+}
+
+/* Cards */
+.card {
+  background-color: #ffff;
+  padding: 15px;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(42, 80, 88, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Responsive image */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px rgba(136, 232, 243, 0.1);
+}
